@@ -1,0 +1,73 @@
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clearButton {
+    background-color: #f44336; /* Red */
+    color: white;
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.numberButton {
+    background-color: #fffffff6; /* Light grey */
+    color: #333;
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.operatorButton {
+    background-color: #ff9800; /* Orange */
+    color: white;
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.equalsButton {
+    background-color: #4caf50; /* Green */
+    color: white;
+    width: 96px;
+    height: 45px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.decimalButton {
+    background-color: #9c27b0; /* Purple */
+    color: white;
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    border-radius: 5px;   
+}
+
+@media (max-width: 600px) {
+    .buttonsContainer {
+      justify-content: space-around; /* Adjust buttons alignment for smaller screens */
+    }
+  
+    .clearButton,
+    .numberButton,
+    .operatorButton,
+    .decimalButton {
+      width: 90px; /* Each button takes up 20% of the width, for a total of 5 buttons per row */
+      height: 90px; /* Slightly smaller height */
+      font-size: 1em; /* Adjust font size */
+      margin: 8px;
+    }
+    .equalsButton {
+        width: 215px; /* Each button takes up 20% of the width, for a total of 5 buttons per row */
+        height: 90px; /* Slightly smaller height */
+        font-size: 1em; /* Adjust font size */
+        margin: 8px;
+    }
+  }
+  
