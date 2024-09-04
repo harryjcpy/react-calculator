@@ -1,6 +1,6 @@
 .display {
     margin: 10px;
-    width: 175px;
+    width: 170px;
     font-size: 25px;  
     font-family: 'Orbitron';
     background-color: rgba(226, 212, 21, 0.767);
@@ -11,7 +11,7 @@
       width: 97%; /* Adjust display width to 90% of the screen width */
       height: 55px;
       margin: 10px auto; /* Center display horizontally */
-      font-size: 20px; /* Adjust font size for smaller screens */
+      font-size: 45px; /* Adjust font size for smaller screens */
     }
   }
   

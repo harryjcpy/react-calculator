@@ -7,6 +7,7 @@
 .clearButton {
     background-color: #f44336; /* Red */
     color: white;
+    font-size: 25px;
     width: 45px;
     height: 45px;
     margin: 3px;
@@ -16,6 +17,7 @@
 .numberButton {
     background-color: #fffffff6; /* Light grey */
     color: #333;
+    font-size: 25px;
     width: 45px;
     height: 45px;
     margin: 3px;
@@ -25,6 +27,7 @@
 .operatorButton {
     background-color: #ff9800; /* Orange */
     color: white;
+    font-size: 25px;
     width: 45px;
     height: 45px;
     margin: 3px;
@@ -34,6 +37,7 @@
 .equalsButton {
     background-color: #4caf50; /* Green */
     color: white;
+    font-size: 25px;
     width: 96px;
     height: 45px;
     margin: 3px;
@@ -43,6 +47,7 @@
 .decimalButton {
     background-color: #9c27b0; /* Purple */
     color: white;
+    font-size: 25px;
     width: 45px;
     height: 45px;
     margin: 3px;
@@ -60,7 +65,7 @@
     .decimalButton {
       width: 90px; /* Each button takes up 20% of the width, for a total of 5 buttons per row */
       height: 90px; /* Slightly smaller height */
-      font-size: 1em; /* Adjust font size */
+      font-size: 3em; /* Adjust font size */
       margin: 8px;
     }
     .equalsButton {

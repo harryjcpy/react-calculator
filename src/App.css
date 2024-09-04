@@ -5,7 +5,7 @@
     border-radius: 15px;
     background-color: rgba(23, 35, 161, 0.871);
     margin-top: 10px;
-    margin-left: 650px;
+    margin-left: 655px;
     padding-bottom: 10px;
    }
 
@@ -29,7 +29,7 @@ body {
     .calculator {
       width: 90%; /* Adjust width to 90% of the screen */
       margin: 20px auto; /* Center the calculator horizontally */
-      height: auto; /* Allow height to adjust based on content */
+      height: 724px; /* Allow height to adjust based on content */
       padding: 10px;
     }
   
