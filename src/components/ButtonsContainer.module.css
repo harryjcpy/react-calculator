@@ -71,7 +71,7 @@
     .equalsButton {
         width: 215px; /* Each button takes up 20% of the width, for a total of 5 buttons per row */
         height: 90px; /* Slightly smaller height */
-        font-size: 1em; /* Adjust font size */
+        font-size: 2em; /* Adjust font size */
         margin: 8px;
     }
   }
