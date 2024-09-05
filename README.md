@@ -1,9 +1,10 @@
 # React Calculator
 
-A simple, user-friendly calculator built with React.js. This calculator performs basic arithmetic operations, supports keyboard input, and features an Easter egg animation which you can find out if you are a Dhoni fan.
+A simple, user-friendly calculator built with React.js. This calculator performs basic arithmetic operations, supports keyboard input, and features an Easter egg animation which you can find out if you are a true Dhoni fan.
 
 ## Table of Contents
 - [Features](#features)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Components](#components)
@@ -16,7 +17,10 @@ A simple, user-friendly calculator built with React.js. This calculator performs
 - **Basic Arithmetic Operations**: Perform addition, subtraction, multiplication, and division.
 - **Keyboard Input Support**: Use your keyboard to enter numbers and perform calculations.
 - **Responsive Design**: The calculator is fully responsive and works on all screen sizes.
-- **Easter Egg Animation**: When the result is "7", a special "Thala" animation is triggered on the screen.
+- **Special Surprise**: There's a hidden feature for users to discover if they're real Dhoni fans. (Hint: Perform a calculation and see what happens when the result is just right!)
+
+## Demo
+You can view a live demo of the project [here](https://main--frabjous-marigold-7a8a8e.netlify.app/).
 
 ## Installation
 
@@ -47,8 +51,7 @@ The app will run locally on [http://localhost:3000](http://localhost:3000).
 1. Enter numbers and select operations (+, -, *, /) to perform calculations.
 2. Use the **C** button to clear the display or the **Backspace** key to delete the last character.
 3. Press the **Enter** key or click **=** to get the result.
-4. If the result of any calculation is "7", enjoy the surprise "Thala" animation.
-5. The animation disappears when any new button is pressed.
+4. Try exploring the app further and discover a special surprise if you're a true Dhoni fan!
 
 ## Components
 
@@ -56,7 +59,7 @@ The app will run locally on [http://localhost:3000](http://localhost:3000).
 - The main component that manages the calculator's state, handles button clicks, and processes keyboard inputs.
 
 ### 2. `EasterEgg.jsx`
-- A component that renders the "Thala" animation when the result equals "7".
+- This is an eater egg that you have to find out, if you are a Dhoni fan.
 
 ### 3. `Display.jsx`
 - A component responsible for showing the current value on the calculator screen.
@@ -77,12 +80,7 @@ The app will run locally on [http://localhost:3000](http://localhost:3000).
 
 Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request. Please ensure that your code follows the project's coding style and conventions.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
-- Animation inspiration from [Internet Resources].
+- Animation inspiration from [here](https://codepen.io/mtsgeneroso/pen/mdJRpxX).
 - React boilerplate template for quick setup.
-- Special thanks to all contributors and community members.
