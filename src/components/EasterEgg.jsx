@@ -1,16 +1,3 @@
-/*import React from 'react';
-import './EasterEgg.css';
-
-const EasterEgg = () => {
-  return (
-    <div className="easter-egg">
-      Thala for a reason
-    </div>
-  );
-};
-
-export default EasterEgg;*/
-
 import React from 'react';
 import './EasterEgg.css';
 
