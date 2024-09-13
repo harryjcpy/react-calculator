@@ -27,14 +27,14 @@ body {
 
 @media (max-width: 600px) {
     .calculator {
-      width: 90%; /* Adjust width to 90% of the screen */
-      margin: 20px auto; /* Center the calculator horizontally */
-      height: 724px; /* Allow height to adjust based on content */
+      width: 90%; 
+      margin: 20px auto;
+      height: 724px; /
       padding: 10px;
     }
   
     h1 {
-      font-size: 1.5em; /* Slightly reduce font size */
+      font-size: 1.5em;
       padding: 5px 0;
     }
   }
