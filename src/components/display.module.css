@@ -8,10 +8,10 @@
 
 @media (max-width: 600px) {
     .display {
-      width: 97%; /* Adjust display width to 90% of the screen width */
+      width: 97%; 
       height: 55px;
-      margin: 10px auto; /* Center display horizontally */
-      font-size: 45px; /* Adjust font size for smaller screens */
+      margin: 10px auto; 
+      font-size: 45px; 
     }
   }
   
