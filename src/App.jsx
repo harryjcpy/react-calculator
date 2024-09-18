@@ -1,33 +1,31 @@
 import Heading from './components/Heading';
 import Display from './components/display';
 import ButtonsContainer from './components/ButtonsContainer';
-import EasterEgg from './components/EasterEgg'; // Import the new component
+import EasterEgg from './components/EasterEgg'; 
 import './App.css';
 import { useState, useEffect } from 'react';
 
 function App() {
   const [calVal, setCalVal] = useState("");
-  const [showEasterEgg, setShowEasterEgg] = useState(false); // State to control the Easter Egg visibility
-
-  // Function to handle button clicks
+  const [showEasterEgg, setShowEasterEgg] = useState(false); 
   const onButtonClick = (buttonText) => {
     if (buttonText === 'C') {
       setCalVal("");
-      setShowEasterEgg(false); // Hide Easter Egg when clearing
+      setShowEasterEgg(false); 
     } else if (buttonText === '=') {
       try {
         const result = eval(calVal);
         setCalVal(result.toString());
 
-        // Check for the easter egg condition
+       
         if (result === 7) {
-          setShowEasterEgg(true); // Show the Easter Egg component
+          setShowEasterEgg(true); 
         } else {
-          setShowEasterEgg(false); // Hide Easter Egg if the result is not 7
+          setShowEasterEgg(false); 
         }
       } catch {
         setCalVal("Error");
-        setShowEasterEgg(false); // Hide Easter Egg on error
+        setShowEasterEgg(false); 
       }
     } else {
       const newDisplayValue = calVal + buttonText;
@@ -35,7 +33,7 @@ function App() {
     }
   };
 
-  // Function to handle keyboard inputs
+ 
   const handleKeyDown = (event) => {
     const { key } = event;
 
@@ -50,13 +48,13 @@ function App() {
     }
   };
 
-  // Set up event listener for keyboard input
+ 
   useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, [calVal]); // Dependency array includes `calVal` to update the effect when it changes
+  }, [calVal]); 
 
   return (
     <>
@@ -64,7 +62,7 @@ function App() {
       <div className="calculator">
         <Display displayValue={calVal} />
         <ButtonsContainer onButtonClick={onButtonClick} />
-        {showEasterEgg && <EasterEgg />} {/* Render the Easter Egg component conditionally */}
+        {showEasterEgg && <EasterEgg />} 
       </div>
     </>
   );
