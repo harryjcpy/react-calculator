@@ -10,7 +10,6 @@ A simple, user-friendly calculator built with React.js. This calculator performs
 - [Components](#components)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Features
