@@ -19,7 +19,7 @@ A simple, user-friendly calculator built with React.js. This calculator performs
 - **Special Surprise**: There's a hidden feature for users to discover if they're real Dhoni fans. (Hint: Perform a calculation and see what happens when the result is just right!)
 
 ## Demo
-You can view a live demo of the project [here](https://main--frabjous-marigold-7a8a8e.netlify.app/).
+You can view a live demo of the project [here](https://calcoolator-react.netlify.app/).
 
 ## Installation
 
